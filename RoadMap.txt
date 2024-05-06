@@ -1,0 +1,43 @@
+Backend - 
+    1. Nodejs Form to Signup/Login (Use JWT) (....Authentication....) (Can also integrate google sign in) - Completed....
+    2. Add Listing
+    3. Gallery
+    4. User Profile 
+    5. Filter/Sort Options
+    6. User Wall
+    7. Forgot Password
+    8. Delete Post/Mark as Sold.
+
+
+Frontend -
+    
+
+Database -
+    1. Verify ER Diagram
+    2. Make changes to ER Diagram
+    3. Finalize ER Diagram and initialize the postgres model
+    4. Code & Migrate postgres into Node.js
+    5. Create Forms to populate
+
+
+
+CI/CD -
+1. Different repo for frontend and backend
+2. Frontend triggers a build and jenkins must build projevt and push JS files built into your backend repo into the right place
+
+
+
+
+Tasks - 
+
+1. Get Basics Right - 
+    a. NodeJs views/controllers are separate from postgres database models.
+    b. Once a separate distinction for both is created and it works, dockerize both as 2 different containers.
+
+
+
+2. Database needs to be acc. to schema
+3. Authentication needs to be setup correctly.. using JWT, sessions, etc.
+4. Form to add Listing
+5. Once listing is added go to home page and show listing.
+6. Push this to Github - different repo for frontend, backend.

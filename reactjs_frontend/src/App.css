@@ -1,0 +1,117 @@
+body{
+  background-color:#dddddd;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 90%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.SignupForm{
+  max-width: 80%;
+  background-color: #ffffff;
+  margin-top: 10%;
+  padding-top: 2.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 2.5%;
+  
+}
+/* 
+.forminput{
+  width: 70%;
+  height: inherit;
+  border-radius: 2px;
+
+} */
+
+
+
+.SubmitButton{
+  height: 50%;
+  background-color: rgb(32, 35, 56);
+  color: white;
+  border-radius: 5px;
+  width: 40%;
+
+}
+
+
+
+.ListingForm{
+  max-width: 50%;
+  align-items: center;
+  align-content: center;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 25%;
+  
+  
+}
+
+
+
+.col-4 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
