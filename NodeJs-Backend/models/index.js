@@ -10,12 +10,13 @@ const Sequelize = require("sequelize");
 
 
 
-const sequelize = new Sequelize('postgres://postgres:pgdb@1234@localhost:5432/',{
+const sequelize = new Sequelize({
   database: "postgres",
   username: "postgres",
   password: "pgdb@1234",
-  host: "localhost",
-  port: 5432,
+  host: "db",
+  port: 5432, 
+  //////Database URL://'postgres://postgres:pgdb@1234@localhost:5432/',
   dialect: "postgres",
   dialectOptions: {},
   pool: {
@@ -25,8 +26,6 @@ const sequelize = new Sequelize('postgres://postgres:pgdb@1234@localhost:5432/',
           idle: 10000
         }
 });
-
-
 
 
 
